@@ -1,0 +1,17 @@
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.Business.dll.config
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.Business.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.Business.pdb
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\EntityFramework.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.DataAccess.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.Entities.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.DataAccess.pdb
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.DataAccess.dll.config
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\Stok.Entities.pdb
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\EntityFramework.xml
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\obj\Debug\Stok.Business.csproj.AssemblyReference.cache
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\obj\Debug\Stok.Business.csproj.CoreCompileInputs.cache
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\obj\Debug\Stok.Business.csproj.CopyComplete
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\obj\Debug\Stok.Business.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.Business\obj\Debug\Stok.Business.pdb

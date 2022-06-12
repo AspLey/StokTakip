@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{476987DB-8C66-4725-9DA0-30827E9441EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Stok.WinFormUI</RootNamespace>
+    <AssemblyName>Stok.WinFormUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSayfasi.Designer.cs">
+      <DependentUpon>AdminSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KategoriSayfasi.Designer.cs">
+      <DependentUpon>KategoriSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkaSayfasi.Designer.cs">
+      <DependentUpon>MarkaSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriSayfasi.Designer.cs">
+      <DependentUpon>MusteriSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelIslemSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelIslemSayfasi.Designer.cs">
+      <DependentUpon>PersonelIslemSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelSayfasi.Designer.cs">
+      <DependentUpon>PersonelSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatisSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisSayfasi.Designer.cs">
+      <DependentUpon>SatisSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokGiris.Designer.cs">
+      <DependentUpon>StokGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StokSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokSayfasi.Designer.cs">
+      <DependentUpon>StokSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunSayfasi.Designer.cs">
+      <DependentUpon>UrunSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunYonetim.cs" />
+    <EmbeddedResource Include="AdminSayfasi.resx">
+      <DependentUpon>AdminSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KategoriSayfasi.resx">
+      <DependentUpon>KategoriSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkaSayfasi.resx">
+      <DependentUpon>MarkaSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriSayfasi.resx">
+      <DependentUpon>MusteriSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelIslemSayfasi.resx">
+      <DependentUpon>PersonelIslemSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelSayfasi.resx">
+      <DependentUpon>PersonelSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisSayfasi.resx">
+      <DependentUpon>SatisSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokGiris.resx">
+      <DependentUpon>StokGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StokSayfasi.resx">
+      <DependentUpon>StokSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunSayfasi.resx">
+      <DependentUpon>UrunSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resimler\1.jpg" />
+    <Content Include="resimler\2.jpg" />
+    <Content Include="resimler\3.jpg" />
+    <None Include="resimler\4.jpg" />
+    <None Include="resimler\5.jpg" />
+    <None Include="resimler\6.jpg" />
+    <None Include="resimler\7.jpg" />
+    <Content Include="resimler\8168616_reminders_notes_list_menu_icon.png" />
+    <None Include="resimler\add.png" />
+    <None Include="resimler\add64.png" />
+    <Content Include="resimler\admin.png" />
+    <None Include="resimler\personelkayit.png" />
+    <None Include="resimler\adminkayit.png" />
+    <Content Include="resimler\adminlogo.png" />
+    <Content Include="resimler\anaadmin.png" />
+    <Content Include="resimler\analogo.png" />
+    <None Include="resimler\delete.png" />
+    <None Include="resimler\clear.png" />
+    <None Include="resimler\back.png" />
+    <None Include="resimler\back2.png" />
+    <Content Include="resimler\erkek.png" />
+    <Content Include="resimler\formicon.ico" />
+    <Content Include="resimler\kadin.png" />
+    <Content Include="resimler\marka,.png" />
+    <Content Include="resimler\marka2.png" />
+    <Content Include="resimler\personel.png" />
+    <Content Include="resimler\satis.png" />
+    <Content Include="resimler\satis1.png" />
+    <Content Include="resimler\stok.png" />
+    <None Include="resimler\update.png" />
+    <Content Include="resimler\urunler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stok.Business\Stok.Business.csproj">
+      <Project>{afa8ace7-d1dd-41d9-ac0d-133f859f5e37}</Project>
+      <Name>Stok.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stok.DataAccess\Stok.DataAccess.csproj">
+      <Project>{4dc36622-c5a7-4ca2-aad0-3c1ce8e38cf7}</Project>
+      <Name>Stok.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stok.Entities\Stok.Entities.csproj">
+      <Project>{b8757a1e-eab7-4b90-81b9-3ab4e02c1df3}</Project>
+      <Name>Stok.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

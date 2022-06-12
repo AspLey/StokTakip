@@ -1,0 +1,14 @@
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\Stok.DataAccess.dll.config
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\Stok.DataAccess.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\Stok.DataAccess.pdb
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\Stok.Entities.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\Stok.Entities.pdb
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\obj\Debug\Stok.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\obj\Debug\Stok.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\obj\Debug\Stok.DataAccess.csproj.CopyComplete
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\obj\Debug\Stok.DataAccess.dll
+C:\Users\ümit\Desktop\StokTakip\Stok.DataAccess\obj\Debug\Stok.DataAccess.pdb
