@@ -42,7 +42,6 @@ namespace Stok.Business.Concrete
             using (StokDbContext context = new StokDbContext())
             {
                 var listele = context.Stoks.ToList();
-                context.SaveChanges();
                 return listele;
             }
         }
